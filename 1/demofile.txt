@@ -1,0 +1,2 @@
+demo file for read information
+hello world

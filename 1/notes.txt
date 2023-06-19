@@ -1,0 +1,17 @@
+npm init run
+npm init can be used to setup up a new or existing npm package 
+
+built in packages hnte hai node js ma unko run directly karte hai (node filename.js)
+jo built in nhi hnte unko install karnaa parta hai
+
+project ko run karne ki do tareqe hai ek to hum direct chalai (node filename.js)
+aur dosra package.json file ma script hai usko use karki chalai project
+
+ "scripts": {
+    "start" : "node index.js"
+  },
+
+  javascript browser ma run hnte hai node.js us code ko browser se bahr apne computer ma chalane ki liya use hnta hai node.js is a server
+  javacript is client side hnta hai node.js server side ki liya use hnta hai
+
+  video 1  (18:10)
