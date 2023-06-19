@@ -19,21 +19,45 @@ app.use('/',route); //add route using express route //sab routes main ma use kar
 app.use('/user',user);
 
 //save data in database
-const post = new Post({
-    title: "hello world",
-    description : "this is title description"
-})
-post.save().then(
-    () => {
-    //   app.use(controllers.success);
-    console.log('saved')
-    }
-  ).catch(
-    (error) => {
-        // app.use(controllers.error);
-        console.log(error)
-    }
-  );
+// const post = new Post({
+//     title: "hello world",
+//     description : "this is title description"
+// })
+// post.save().then(
+//     () => {
+//     //   app.use(controllers.success);
+//     console.log('saved')
+//     }
+//   ).catch(
+//     (error) => {
+//         // app.use(controllers.error);
+//         console.log(error)
+//     }
+//   );
+
+  //Get Single Data from Database
+  // Select * from Post where title = "hello world"
+  // Post.findOne({title: "hello world"}).then(post=>{
+  //   console.log(post);
+  // }).catch(err =>{
+  //   console.log(err);
+  // })
+
+    //Get All Data from Database
+//find return an array
+  // Post.find({title: "hello world"}).then(post=>{
+  //   console.log(post);
+  // }).catch(err =>{
+  //   console.log(err);
+  // })
+ 
+  // Update single Data from database
+  // Post.updateOne({title: "hello world update"}, {title: "hello world"}).then(
+  //   post =>{console.log(post)}
+  // );
+
+  //Delete Data From database - Task
+
 
 
 // const myJson = {
